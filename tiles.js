@@ -1,4 +1,4 @@
-// This program creates a board with 15 puzzle pieces which must
+// This program creates a board with puzzle pieces which must
 // be moved into position to complete the game.
 (() => {
     "use strict";
