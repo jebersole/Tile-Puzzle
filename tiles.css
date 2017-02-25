@@ -3,141 +3,141 @@
 /* Applies a background of stars and defines text appearance */
 
 body {
-  text-align: center;
-  font-family: cursive;
-  font-size: 14pt;
-  color: green;
-  background-color: black;
-  background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 14pt;
+	color: green;
+	background-color: black;
+	background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+        radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 /* Size and position of the puzzle */
 
 #puzzlearea {
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  position: relative;
-  pointer-events: none;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	position: relative;
+	pointer-events: none;
 }
 
 /* Size and appearance of an individual tile */
 
 .tile {
-  font-size: 40pt;
-  color: white;
-  text-shadow: 2px 2px green;
-  line-height: 70pt;
-  width: 90px;
-  height: 90px;
-  border: 5px solid black;
-  position: absolute;
+	font-size: 40pt;
+	color: white;
+	text-shadow: 2px 2px green;
+	line-height: 70pt;
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	position: absolute;
 }
 
 #timer {
-  font-size: 20pt;
+	font-size: 20pt;
 }
 
 /* Chunky buttons by Matt Gentile of IconDeposit */
 
 #chunky-buttons {
-  margin-top: 20px;
-  margin-left: 70px;
+	margin-top: 20px;
+	margin-left: 70px;
 }
 
 #chunky-buttons a {
-  float: left;
-  display: inline-block;
-  position: relative;
-  margin: 0;
-  margin-left: 6px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	margin-left: 6px;
 }
 
 .chunky {
-  position: relative;
-  width: 400px;
-  height: 50px;
-  margin: 0 auto;
-  padding-top: 2px;
-  padding-left: 2px;
+	position: relative;
+	width: 400px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 2px;
+	padding-left: 2px;
 }
 
 /* ===[ Begin Chunky Button ]=== */
 
 .chunky a {
     /* Normal State */
-  padding: 4px 15px 7px 15px;
-  width: auto;
-  height: auto;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  text-decoration: none;
-  text-shadow: 0 -1px 1px rgba(0,0,0,0.50);
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  border: 1px solid rgba(0,0,0,0.50);
-  border-top: 1px solid rgba(0,0,0,0.001);
-  box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	padding: 4px 15px 7px 15px;
+	width: auto;
+	height: auto;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.50);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border: 1px solid rgba(0,0,0,0.50);
+	border-top: 1px solid rgba(0,0,0,0.001);
+	box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
-  -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .chunky a:hover {
     /* Hover State */
-  box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-  -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
         inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-  -webkit-animation: glow 1s infinite ease-in-out;
-  cursor: pointer;
+	-webkit-animation: glow 1s infinite ease-in-out;
+	cursor: pointer;
 }
 
 .chunky a:active {
     /* Active State (clicked on) */
-  padding: 6px 15px 5px 15px;
-  border-top: 1px solid rgba(0,0,0,0.55);
-  box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
+	padding: 6px 15px 5px 15px;
+	border-top: 1px solid rgba(0,0,0,0.55);
+	box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
         inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
         inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
         inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
         inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
-  -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50),
         inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
-  -webkit-animation: none;
-  cursor: pointer !important;
+	-webkit-animation: none;
+	cursor: pointer !important;
 }
 
 /* ===[ End Chunky Button ]=== */
@@ -145,7 +145,7 @@ body {
 /* ===[ Start Chunky Button Background Color ]=== */
 
 .chunky14 a {
-  background: #669900;
+	background: #669900;
 }
 
 /* ===[ End Chunky Button Background Color ]=== */
@@ -153,31 +153,31 @@ body {
 /* ===[ Start Glow Animation ]=== */
 
 @-webkit-keyframes glow {
-  0% {
-    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	0% {
+		box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.35);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.35);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.35);
-    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.35);
-    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.35);
-  }
+	}
 
-  100% {
-    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+	100% {
+		box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.18);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.18);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.18);
-    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.18);
-    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
+		-ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18),
             inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.18);
-  }
+	}
 }
 
 /* ===[ End Glow Animation ]=== */
@@ -188,28 +188,28 @@ body {
 /* Rotates the tiles when moved */
 
 .move {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: top 1s, left 1s, -webkit-transform 1s; /* Safari */
-  transition: top 1s, left 1s, transform 1s;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: top 1s, left 1s, -webkit-transform 1s; /* Safari */
+	transition: top 1s, left 1s, transform 1s;
 }
 
 .moveback {
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: top 1s, left 1s, -webkit-transform 1s;
-  transition: top 1s, left 1s, transform 1s;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: top 1s, left 1s, -webkit-transform 1s;
+	transition: top 1s, left 1s, transform 1s;
 }
 
 /* Highlighting for mousing over a tile */
 
 .highlight {
-  cursor: pointer;
-  border: 5px solid green;
+	cursor: pointer;
+	border: 5px solid green;
 }
