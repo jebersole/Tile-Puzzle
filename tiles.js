@@ -1,5 +1,4 @@
-// This program creates a board with puzzle pieces which must
-// be moved into position to complete the game.
+// This program creates a board with puzzle pieces which must be moved into position to complete the game.
 (() => {
     "use strict";
     // Default board size is 4x4, and tile size 100px. This could theoretically be altered.
@@ -7,7 +6,7 @@
     const TILE_SIZE = 100;
     window.onload = () => {
         const clock = new GameClock("timer");
-        const board = new TileBoard("puzzlearea", () => { // upon puzzle completion, this parameter is called
+        const board = new TileBoard("puzzlearea", () => { // upon puzzle completion, this function is called
             clock.stop();
             document.getElementById("puzzlearea").style.pointerEvents = "none";
             const waitMillisecs = 1200;
