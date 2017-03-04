@@ -30,7 +30,7 @@
 
         const pics = [];
         for (var i = 1; i <= 17; i++) {
-            pics.push("url('./pics/" + i + ".jpg')");
+            pics.push("url('./assets/" + i + ".jpg')");
         }
         changePic(); // set default picture
 

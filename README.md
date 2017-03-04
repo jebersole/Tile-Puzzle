@@ -1,4 +1,4 @@
-![Tile Puzzle](tiles.png?raw=true)
+![Tile Puzzle](assets/tiles.png?raw=true)
 
 This program has the user move shuffled puzzle tiles into their appropriate places. The board is
 4x4, and up to 3 pieces may be moved at one time (highlighting around the tiles assists the user).
